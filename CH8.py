@@ -3,6 +3,7 @@ import random
 import statistics
 import keyword
 import hello
+
 # use code from the module by [module name].code
 print(math.pow(2,3))
 print(random.randint(0,100))
@@ -12,4 +13,4 @@ print(statistics.median(nums))
 print(statistics.stdev(nums))
 keyword.iskeyword("for")
 keyword.iskeyword("football")
-# hello.print_hello()
+hello.print_hello()
